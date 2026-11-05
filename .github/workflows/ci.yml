@@ -34,7 +34,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.13.3' # Match the project’s Python version
+          python-version: '3.13' # Match the project’s Python version
           
       - name: Install backend dependencies
         working-directory: ./backend
